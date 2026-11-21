@@ -1,0 +1,1443 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7086失效地址回家指南 - 导航修复攻略,影像品牌官方平台</title>
+<meta name="description" content="7086失效地址回家指南官方网站，专注网络访问经验分享与路线整理，为创作者与企业提供专业、高清、值得信赖的内容生态与导航攻略。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314233a'/%3E%3Cpath d='M14 44 L30 16 L38 30 L50 20 L50 46 Z' fill='%2337c4a8'/%3E%3Ccircle cx='44' cy='20' r='5' fill='%23ffc857'/%3E%3C/svg%3E">
+<style>
+:root{
+  --g7086-navy:#14233a;
+  --g7086-navy-2:#1d3050;
+  --g7086-teal:#37c4a8;
+  --g7086-teal-soft:#d8f5ef;
+  --g7086-amber:#ffc857;
+  --g7086-ink:#1c2430;
+  --g7086-muted:#5d6b7d;
+  --g7086-line:#e2e8f0;
+  --g7086-bg:#f5f8fb;
+  --g7086-white:#ffffff;
+  --g7086-shadow:0 10px 30px rgba(20,35,58,.10);
+  --g7086-radius:16px;
+  --g7086-head-h:128px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  color:var(--g7086-ink);
+  background:var(--g7086-bg);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{margin:0 0 .5em;line-height:1.3;font-weight:700;}
+p{margin:0 0 1em;}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+ul{margin:0;padding-left:1.2em;}
+section{scroll-margin-top:var(--g7086-head-h);}
+.g7086-container{width:min(1180px,92vw);margin:0 auto;}
+.g7086-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:12px 24px;border-radius:999px;border:1px solid transparent;
+  font-size:15px;font-weight:600;cursor:pointer;transition:.25s ease;
+  font-family:inherit;
+}
+.g7086-btn-primary{background:var(--g7086-teal);color:#08231d;}
+.g7086-btn-primary:hover{background:#2bb19a;transform:translateY(-2px);}
+.g7086-btn-ghost{background:transparent;color:var(--g7086-white);border-color:rgba(255,255,255,.5);}
+.g7086-btn-ghost:hover{background:rgba(255,255,255,.12);}
+.g7086-btn-line{background:var(--g7086-white);color:var(--g7086-navy);border-color:var(--g7086-line);}
+.g7086-btn-line:hover{border-color:var(--g7086-teal);color:#168a76;}
+.g7086-tag{
+  display:inline-block;padding:3px 10px;border-radius:999px;
+  background:var(--g7086-teal-soft);color:#12776a;font-size:12px;font-weight:600;
+}
+
+/* ============ 顶部公告 + 页头吸顶 ============ */
+.g7086-headwrap{
+  position:sticky;top:0;z-index:90;
+  background:rgba(245,248,251,.96);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--g7086-line);
+}
+.g7086-notice{
+  background:linear-gradient(90deg,var(--g7086-navy),#223b5e);
+  color:#dce7f5;font-size:13px;
+}
+.g7086-notice-inner{
+  width:min(1180px,92vw);margin:0 auto;
+  display:flex;align-items:center;gap:12px;padding:8px 0;overflow:hidden;
+}
+.g7086-notice-label{
+  flex:0 0 auto;background:var(--g7086-amber);color:#3a2a04;
+  font-weight:700;border-radius:6px;padding:1px 8px;font-size:12px;
+}
+.g7086-notice-track{flex:1;overflow:hidden;white-space:nowrap;}
+.g7086-notice-track span{display:inline-block;padding-left:100%;animation:g7086marquee 26s linear infinite;}
+@keyframes g7086marquee{0%{transform:translateX(0);}100%{transform:translateX(-100%);}}
+.g7086-header{
+  display:flex;align-items:center;justify-content:space-between;gap:18px;
+  padding:12px 0;
+}
+.g7086-brand{display:flex;align-items:center;gap:10px;}
+.g7086-brand-mark{
+  width:40px;height:40px;border-radius:11px;flex:0 0 auto;
+  background:linear-gradient(135deg,var(--g7086-navy),#2b4a75);
+  display:grid;place-items:center;color:var(--g7086-teal);font-weight:800;font-size:17px;
+}
+.g7086-brand-text strong{display:block;font-size:17px;letter-spacing:.5px;}
+.g7086-brand-text small{color:var(--g7086-muted);font-size:11.5px;letter-spacing:1px;}
+.g7086-nav{display:flex;align-items:center;gap:4px;flex-wrap:wrap;}
+.g7086-nav a{
+  padding:8px 12px;border-radius:8px;font-size:14.5px;font-weight:500;color:#38465a;
+  transition:.2s;
+}
+.g7086-nav a:hover{background:var(--g7086-teal-soft);color:#0f6a5c;}
+.g7086-head-actions{display:flex;align-items:center;gap:10px;}
+.g7086-search{
+  display:flex;align-items:center;background:var(--g7086-white);
+  border:1px solid var(--g7086-line);border-radius:999px;padding:5px 6px 5px 14px;
+  transition:.2s;width:230px;
+}
+.g7086-search:focus-within{border-color:var(--g7086-teal);box-shadow:0 0 0 3px rgba(55,196,168,.15);}
+.g7086-search input{
+  border:none;outline:none;background:transparent;flex:1;min-width:0;
+  font-size:13.5px;font-family:inherit;color:var(--g7086-ink);
+}
+.g7086-search button{
+  border:none;background:var(--g7086-navy);color:#fff;border-radius:999px;
+  width:30px;height:30px;cursor:pointer;font-size:13px;display:grid;place-items:center;
+}
+.g7086-search-hint{
+  font-size:12.5px;color:#0f6a5c;margin-top:6px;min-height:18px;text-align:right;
+}
+.g7086-burger{
+  display:none;background:var(--g7086-white);border:1px solid var(--g7086-line);
+  border-radius:9px;width:42px;height:38px;cursor:pointer;font-size:18px;color:var(--g7086-navy);
+}
+
+/* ============ 首屏 ============ */
+.g7086-hero{
+  background:radial-gradient(1200px 500px at 85% -10%,rgba(55,196,168,.22),transparent 60%),
+             linear-gradient(160deg,var(--g7086-navy) 0%,#1a2c47 55%,#20365a 100%);
+  color:#eaf2fb;padding:64px 0 72px;position:relative;overflow:hidden;
+}
+.g7086-hero::after{
+  content:"";position:absolute;right:-140px;bottom:-160px;width:460px;height:460px;
+  border-radius:50%;border:1px dashed rgba(55,196,168,.35);
+}
+.g7086-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center;position:relative;z-index:1;}
+.g7086-hero-kicker{
+  display:inline-flex;align-items:center;gap:8px;font-size:12.5px;letter-spacing:2px;
+  color:var(--g7086-teal);border:1px solid rgba(55,196,168,.45);border-radius:999px;
+  padding:5px 14px;margin-bottom:18px;
+}
+.g7086-hero h1{font-size:clamp(30px,4.2vw,46px);letter-spacing:1px;margin-bottom:16px;}
+.g7086-hero h1 em{font-style:normal;color:var(--g7086-amber);}
+.g7086-hero-lead{font-size:15.5px;color:#c3d2e5;max-width:560px;}
+.g7086-hero-intro{font-size:14px;color:#9fb2c9;border-left:2px solid var(--g7086-teal);padding-left:14px;margin:18px 0 24px;}
+.g7086-hero-btns{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:28px;}
+.g7086-hero-stats{display:flex;gap:14px;flex-wrap:wrap;}
+.g7086-stat{
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);
+  border-radius:12px;padding:12px 18px;min-width:118px;
+}
+.g7086-stat b{display:block;font-size:22px;color:var(--g7086-teal);}
+.g7086-stat span{font-size:12px;color:#9fb2c9;}
+.g7086-hero-visual{
+  background:linear-gradient(150deg,rgba(255,255,255,.10),rgba(255,255,255,.02));
+  border:1px solid rgba(255,255,255,.16);border-radius:22px;padding:14px;
+  box-shadow:0 30px 60px rgba(0,0,0,.35);
+}
+.g7086-hero-visual img{border-radius:14px;aspect-ratio:16/10;object-fit:cover;width:100%;}
+.g7086-hero-visual-cap{display:flex;justify-content:space-between;font-size:12px;color:#a9bdd3;padding:10px 4px 2px;}
+
+/* ============ 通用块 ============ */
+.g7086-section{padding:70px 0;}
+.g7086-section-alt{background:var(--g7086-white);}
+.g7086-sec-head{max-width:760px;margin-bottom:38px;}
+.g7086-sec-head .g7086-tag{margin-bottom:10px;}
+.g7086-sec-head h2{font-size:clamp(23px,3vw,30px);color:var(--g7086-navy);}
+.g7086-sec-head p{color:var(--g7086-muted);font-size:14.5px;margin:0;}
+.g7086-sec-flex{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:32px;}
+.g7086-sec-flex .g7086-sec-head{margin-bottom:0;}
+
+/* 焦点视频 */
+.g7086-focus-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:22px;}
+.g7086-card{
+  background:var(--g7086-white);border:1px solid var(--g7086-line);border-radius:var(--g7086-radius);
+  overflow:hidden;transition:.28s ease;display:flex;flex-direction:column;
+}
+.g7086-card:hover{transform:translateY(-5px);box-shadow:var(--g7086-shadow);border-color:#cfe3df;}
+.g7086-card-media{position:relative;overflow:hidden;background:#dfe7f0;}
+.g7086-card-media img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:.4s;}
+.g7086-card:hover .g7086-card-media img{transform:scale(1.05);}
+.g7086-card-play{
+  position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;
+}
+.g7086-card-play span{
+  width:52px;height:52px;border-radius:50%;background:rgba(20,35,58,.62);
+  border:2px solid rgba(255,255,255,.7);display:grid;place-items:center;
+  color:#fff;font-size:17px;padding-left:3px;
+}
+.g7086-card-badge{
+  position:absolute;top:12px;left:12px;background:rgba(20,35,58,.78);color:#fff;
+  font-size:11.5px;padding:3px 10px;border-radius:999px;backdrop-filter:blur(4px);
+}
+.g7086-card-body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:8px;flex:1;}
+.g7086-card-body h3{font-size:16.5px;color:var(--g7086-navy);margin:0;}
+.g7086-card-body p{font-size:13.5px;color:var(--g7086-muted);margin:0;flex:1;}
+.g7086-card-meta{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#7b8a9c;gap:8px;flex-wrap:wrap;}
+.g7086-card-actions{display:flex;gap:8px;margin-top:4px;}
+.g7086-mini-btn{
+  border:1px solid var(--g7086-line);background:#fbfdfe;border-radius:999px;
+  padding:4px 12px;font-size:12px;cursor:pointer;color:#4a5a6d;display:inline-flex;
+  align-items:center;gap:5px;transition:.2s;font-family:inherit;
+}
+.g7086-mini-btn:hover{border-color:var(--g7086-teal);color:#0f6a5c;}
+.g7086-mini-btn.g7086-is-liked{background:#e3fbf5;border-color:var(--g7086-teal);color:#0f6a5c;font-weight:600;}
+.g7086-mini-btn.g7086-is-saved{background:#fff6e0;border-color:var(--g7086-amber);color:#8a6100;font-weight:600;}
+.g7086-focus-side{display:flex;flex-direction:column;gap:22px;}
+.g7086-focus-side .g7086-card-body p{font-size:13px;}
+
+/* 视频流 */
+.g7086-stream{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+.g7086-filterbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px;}
+.g7086-chip{
+  border:1px solid var(--g7086-line);background:var(--g7086-white);border-radius:999px;
+  padding:6px 16px;font-size:13px;cursor:pointer;color:#4a5a6d;transition:.2s;font-family:inherit;
+}
+.g7086-chip:hover{border-color:var(--g7086-teal);}
+.g7086-chip.g7086-chip-active{background:var(--g7086-navy);color:#fff;border-color:var(--g7086-navy);}
+.g7086-card.g7086-hide{display:none;}
+
+/* 专题 */
+.g7086-topics{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;}
+.g7086-topic{
+  position:relative;border-radius:var(--g7086-radius);overflow:hidden;min-height:230px;
+  display:flex;align-items:flex-end;color:#fff;padding:20px;isolation:isolate;
+  transition:.3s;
+}
+.g7086-topic:hover{transform:translateY(-4px);}
+.g7086-topic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;}
+.g7086-topic::after{
+  content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(180deg,rgba(20,35,58,.15),rgba(20,35,58,.88));
+}
+.g7086-topic h3{font-size:17px;margin:0 0 4px;}
+.g7086-topic p{margin:0 0 8px;font-size:12.5px;color:#d5e0ee;}
+.g7086-topic .g7086-tag{background:rgba(255,200,87,.92);color:#3a2a04;}
+
+/* 创作者 */
+.g7086-creators{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.g7086-creator{
+  background:var(--g7086-white);border:1px solid var(--g7086-line);border-radius:var(--g7086-radius);
+  padding:22px 18px;text-align:center;transition:.28s;cursor:pointer;
+}
+.g7086-creator:hover{transform:translateY(-5px);box-shadow:var(--g7086-shadow);border-color:#cfe3df;}
+.g7086-avatar{
+  width:64px;height:64px;border-radius:50%;margin:0 auto 12px;display:grid;place-items:center;
+  font-size:22px;font-weight:800;color:#fff;letter-spacing:1px;
+}
+.g7086-creator h3{font-size:15.5px;margin:0 0 4px;color:var(--g7086-navy);}
+.g7086-creator .g7086-role{font-size:12px;color:var(--g7086-teal);font-weight:600;margin-bottom:8px;}
+.g7086-creator p{font-size:12.5px;color:var(--g7086-muted);margin:0 0 10px;min-height:52px;}
+.g7086-creator-stats{display:flex;justify-content:center;gap:14px;font-size:11.5px;color:#7b8a9c;}
+.g7086-creator-stats b{color:var(--g7086-navy);display:block;font-size:13.5px;}
+
+/* 深度解析 */
+.g7086-deep{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:start;}
+.g7086-deep-art{
+  border-radius:var(--g7086-radius);overflow:hidden;border:1px solid var(--g7086-line);
+  background:var(--g7086-white);
+}
+.g7086-deep-art img{width:100%;aspect-ratio:4/5;object-fit:cover;}
+.g7086-deep-body h2{font-size:clamp(22px,2.8vw,28px);color:var(--g7086-navy);}
+.g7086-deep-body p{font-size:14.5px;color:#3c4a5c;}
+.g7086-deep-body h3{font-size:16.5px;color:var(--g7086-navy);margin-top:26px;}
+.g7086-quotebox{
+  border-left:3px solid var(--g7086-amber);background:var(--g7086-white);
+  padding:14px 18px;border-radius:0 12px 12px 0;font-size:14px;color:#3c4a5c;
+  box-shadow:0 4px 16px rgba(20,35,58,.05);margin:18px 0;
+}
+
+/* 作品墙 */
+.g7086-wall{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:110px;gap:14px;}
+.g7086-wall-item{
+  position:relative;border-radius:12px;overflow:hidden;background:#dfe7f0;
+}
+.g7086-wall-item img{width:100%;height:100%;object-fit:cover;transition:.4s;}
+.g7086-wall-item:hover img{transform:scale(1.07);}
+.g7086-wall-item span{
+  position:absolute;left:0;right:0;bottom:0;padding:16px 12px 8px;font-size:12px;color:#fff;
+  background:linear-gradient(180deg,transparent,rgba(20,35,58,.85));
+}
+.g7086-wall-big{grid-column:span 3;grid-row:span 2;}
+.g7086-wall-mid{grid-column:span 3;grid-row:span 1;}
+.g7086-wall-sml{grid-column:span 2;grid-row:span 1;}
+
+/* 评价 */
+.g7086-reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.g7086-review{
+  background:var(--g7086-white);border:1px solid var(--g7086-line);border-radius:var(--g7086-radius);
+  padding:20px;position:relative;transition:.25s;
+}
+.g7086-review:hover{box-shadow:var(--g7086-shadow);transform:translateY(-3px);}
+.g7086-review::before{
+  content:"“";position:absolute;top:6px;right:16px;font-size:46px;color:#e6f4f1;font-family:Georgia,serif;line-height:1;
+}
+.g7086-review p{font-size:13.5px;color:#3c4a5c;position:relative;z-index:1;}
+.g7086-review-who{display:flex;align-items:center;gap:10px;margin-top:10px;}
+.g7086-review-who .g7086-avatar{width:34px;height:34px;font-size:13px;margin:0;flex:0 0 auto;}
+.g7086-review-who b{font-size:13px;display:block;}
+.g7086-review-who small{font-size:11px;color:#8a98a8;}
+
+/* 榜单 */
+.g7086-rank{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.g7086-rank-col{background:var(--g7086-white);border:1px solid var(--g7086-line);border-radius:var(--g7086-radius);padding:20px;}
+.g7086-rank-col h3{font-size:15.5px;color:var(--g7086-navy);display:flex;align-items:center;gap:8px;margin-bottom:14px;}
+.g7086-rank-col h3 i{width:8px;height:8px;border-radius:2px;background:var(--g7086-teal);display:inline-block;}
+.g7086-rank-item{display:flex;gap:10px;align-items:center;padding:9px 0;border-bottom:1px dashed var(--g7086-line);font-size:13px;}
+.g7086-rank-item:last-child{border-bottom:none;}
+.g7086-rank-no{width:22px;height:22px;border-radius:6px;background:#eef3f8;display:grid;place-items:center;font-size:11.5px;font-weight:700;color:#4a5a6d;flex:0 0 auto;}
+.g7086-rank-item:nth-child(2) .g7086-rank-no{background:var(--g7086-amber);color:#3a2a04;}
+.g7086-rank-item:nth-child(3) .g7086-rank-no{background:var(--g7086-teal);color:#08231d;}
+.g7086-rank-item span{flex:1;color:#3c4a5c;}
+.g7086-rank-item em{font-style:normal;font-size:11.5px;color:#8a98a8;}
+
+/* 动态 */
+.g7086-updates{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
+.g7086-update{
+  background:var(--g7086-white);border:1px solid var(--g7086-line);border-radius:var(--g7086-radius);
+  padding:18px;border-top:3px solid var(--g7086-teal);
+}
+.g7086-update time{font-size:11.5px;color:#8a98a8;}
+.g7086-update h3{font-size:14.5px;margin:6px 0;color:var(--g7086-navy);}
+.g7086-update p{font-size:12.5px;color:var(--g7086-muted);margin:0;}
+
+/* 合作 */
+.g7086-partners{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;}
+.g7086-partner{
+  background:var(--g7086-white);border:1px solid var(--g7086-line);border-radius:12px;
+  padding:14px 26px;font-size:13.5px;color:#4a5a6d;font-weight:600;letter-spacing:.5px;
+  transition:.2s;
+}
+.g7086-partner:hover{border-color:var(--g7086-teal);color:#0f6a5c;}
+
+/* FAQ */
+.g7086-faq{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:12px;}
+.g7086-faq details{
+  background:var(--g7086-white);border:1px solid var(--g7086-line);border-radius:12px;
+  padding:0 18px;transition:.2s;
+}
+.g7086-faq details[open]{border-color:var(--g7086-teal);box-shadow:0 6px 20px rgba(55,196,168,.10);}
+.g7086-faq summary{
+  cursor:pointer;font-weight:600;font-size:14.5px;color:var(--g7086-navy);
+  padding:16px 0;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:14px;
+}
+.g7086-faq summary::-webkit-details-marker{display:none;}
+.g7086-faq summary::after{content:"+";font-size:20px;color:var(--g7086-teal);transition:.25s;font-weight:400;}
+.g7086-faq details[open] summary::after{transform:rotate(45deg);}
+.g7086-faq details p{font-size:13.5px;color:var(--g7086-muted);margin:0 0 16px;}
+
+/* 联系 */
+.g7086-contact{
+  background:linear-gradient(140deg,var(--g7086-navy),#22406a);color:#e8f0fa;
+  border-radius:22px;padding:46px 38px;display:grid;grid-template-columns:1.1fr .9fr;gap:36px;
+  align-items:center;position:relative;overflow:hidden;
+}
+.g7086-contact::after{
+  content:"";position:absolute;right:-80px;top:-80px;width:260px;height:260px;
+  border-radius:50%;background:rgba(55,196,168,.16);
+}
+.g7086-contact h2{color:#fff;font-size:clamp(22px,2.6vw,28px);}
+.g7086-contact p{color:#b7c8dd;font-size:14px;position:relative;z-index:1;}
+.g7086-contact-actions{display:flex;flex-wrap:wrap;gap:12px;position:relative;z-index:1;}
+
+/* 页脚 */
+.g7086-footer{background:#0f1b2c;color:#9db0c6;padding:52px 0 24px;font-size:13px;}
+.g7086-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:32px;margin-bottom:32px;}
+.g7086-footer h4{color:#fff;font-size:14px;margin-bottom:12px;letter-spacing:.5px;}
+.g7086-footer a{color:#9db0c6;transition:.2s;display:block;padding:3px 0;}
+.g7086-footer a:hover{color:var(--g7086-teal);}
+.g7086-footer .g7086-brand-text strong{color:#fff;}
+.g7086-footer .g7086-brand-text small{color:#7f93ab;}
+.g7086-footer-bottom{
+  border-top:1px solid rgba(255,255,255,.09);padding-top:20px;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12px;color:#7f93ab;
+}
+
+/* Toast / Modal */
+.g7086-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,24px);
+  background:var(--g7086-navy);color:#fff;padding:11px 22px;border-radius:999px;
+  font-size:13.5px;opacity:0;pointer-events:none;transition:.35s;z-index:200;
+  box-shadow:0 12px 30px rgba(0,0,0,.28);max-width:90vw;
+}
+.g7086-toast.g7086-show{opacity:1;transform:translate(-50%,0);}
+.g7086-modal{
+  position:fixed;inset:0;background:rgba(12,20,32,.62);z-index:180;
+  display:none;align-items:center;justify-content:center;padding:20px;
+}
+.g7086-modal.g7086-show{display:flex;}
+.g7086-modal-box{
+  background:#fff;border-radius:18px;max-width:520px;width:100%;padding:26px;
+  position:relative;box-shadow:0 30px 80px rgba(0,0,0,.35);max-height:86vh;overflow:auto;
+}
+.g7086-modal-box h3{color:var(--g7086-navy);font-size:18px;margin-bottom:8px;}
+.g7086-modal-box p{font-size:13.5px;color:var(--g7086-muted);}
+.g7086-modal-close{
+  position:absolute;top:12px;right:14px;border:none;background:#f0f4f8;border-radius:50%;
+  width:30px;height:30px;cursor:pointer;font-size:15px;color:#4a5a6d;
+}
+.g7086-form-field{margin-top:12px;}
+.g7086-form-field label{font-size:12.5px;font-weight:600;color:#3c4a5c;display:block;margin-bottom:5px;}
+.g7086-form-field input,.g7086-form-field textarea,.g7086-form-field select{
+  width:100%;border:1px solid var(--g7086-line);border-radius:10px;padding:10px 12px;
+  font-family:inherit;font-size:13.5px;outline:none;transition:.2s;background:#fbfdfe;
+}
+.g7086-form-field input:focus,.g7086-form-field textarea:focus,.g7086-form-field select:focus{
+  border-color:var(--g7086-teal);box-shadow:0 0 0 3px rgba(55,196,168,.14);
+}
+.g7086-share-list{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;}
+.g7086-share-list button{
+  border:1px solid var(--g7086-line);background:#fbfdfe;border-radius:10px;padding:9px 16px;
+  font-size:13px;cursor:pointer;font-family:inherit;color:#3c4a5c;transition:.2s;
+}
+.g7086-share-list button:hover{border-color:var(--g7086-teal);color:#0f6a5c;}
+
+.g7086-totop{
+  position:fixed;right:22px;bottom:26px;width:44px;height:44px;border-radius:50%;
+  background:var(--g7086-navy);color:#fff;border:none;cursor:pointer;font-size:17px;
+  display:grid;place-items:center;opacity:0;pointer-events:none;transition:.3s;z-index:120;
+  box-shadow:0 8px 24px rgba(20,35,58,.3);
+}
+.g7086-totop.g7086-show{opacity:1;pointer-events:auto;}
+
+@media(max-width:1024px){
+  .g7086-hero-grid,.g7086-deep,.g7086-contact{grid-template-columns:1fr;}
+  .g7086-focus-grid{grid-template-columns:1fr;}
+  .g7086-stream,.g7086-reviews,.g7086-rank,.g7086-updates{grid-template-columns:repeat(2,1fr);}
+  .g7086-creators{grid-template-columns:repeat(2,1fr);}
+  .g7086-footer-grid{grid-template-columns:1fr 1fr;}
+  .g7086-search{width:180px;}
+}
+@media(max-width:768px){
+  :root{--g7086-head-h:120px;}
+  .g7086-burger{display:grid;place-items:center;}
+  .g7086-nav{
+    display:none;position:absolute;left:0;right:0;top:100%;background:#fff;
+    flex-direction:column;align-items:stretch;padding:12px 5vw 18px;
+    border-bottom:1px solid var(--g7086-line);box-shadow:0 18px 30px rgba(20,35,58,.12);gap:2px;
+  }
+  .g7086-nav.g7086-nav-open{display:flex;}
+  .g7086-nav a{padding:11px 10px;}
+  .g7086-header{position:relative;flex-wrap:wrap;}
+  .g7086-head-actions{margin-left:auto;}
+  .g7086-search{width:150px;}
+  .g7086-stream,.g7086-reviews,.g7086-rank,.g7086-updates,.g7086-creators{grid-template-columns:1fr;}
+  .g7086-wall{grid-template-columns:repeat(2,1fr);grid-auto-rows:120px;}
+  .g7086-wall-big,.g7086-wall-mid,.g7086-wall-sml{grid-column:span 1;grid-row:span 1;}
+  .g7086-wall-big{grid-column:span 2;grid-row:span 2;}
+  .g7086-footer-grid{grid-template-columns:1fr;}
+  .g7086-section{padding:50px 0;}
+  .g7086-hero{padding:44px 0 52px;}
+  .g7086-contact{padding:32px 22px;}
+  .g7086-notice-inner{font-size:12px;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="g7086-headwrap">
+  <div class="g7086-notice">
+    <div class="g7086-notice-inner">
+      <span class="g7086-notice-label">官方发布</span>
+      <div class="g7086-notice-track">
+        <span>11月19日更新：7086失效地址回家指南新增「线路自检六步法」图解 · 第37期创作者访谈上线 · 冬季投稿挑战赛报名开启 · 高清素材下载专区开放</span>
+      </div>
+    </div>
+  </div>
+  <div class="g7086-container">
+    <header class="g7086-header">
+      <a class="g7086-brand" href="#g7086-home">
+        <span class="g7086-brand-mark">7086</span>
+        <span class="g7086-brand-text">
+          <strong>7086 回家指南</strong>
+          <small>品牌官网 · 导航视频门户</small>
+        </span>
+      </a>
+      <nav class="g7086-nav" id="g7086-nav">
+        <a href="#g7086-home">首页</a>
+        <a href="#g7086-focus">视频焦点</a>
+        <a href="#g7086-topics">专题企划</a>
+        <a href="#g7086-creators">创作者</a>
+        <a href="#g7086-deep">深度解析</a>
+        <a href="#g7086-updates">企业动态</a>
+        <a href="#g7086-faq">帮助</a>
+        <a href="#g7086-contact">联系我们</a>
+      </nav>
+      <div class="g7086-head-actions">
+        <form class="g7086-search" id="g7086-search-form" role="search">
+          <input type="search" id="g7086-search-input" placeholder="搜索线路、攻略、创作者" aria-label="站内搜索">
+          <button type="submit" aria-label="搜索">🔍</button>
+        </form>
+        <button class="g7086-burger" id="g7086-burger" aria-label="展开导航" aria-expanded="false">☰</button>
+      </div>
+    </header>
+  </div>
+</div>
+
+<main>
+
+<!-- 首屏 -->
+<section class="g7086-hero" id="g7086-home">
+  <div class="g7086-container g7086-hero-grid">
+    <div>
+      <span class="g7086-hero-kicker">OFFICIAL · 企业级品牌门户</span>
+      <h1>7086失效地址回家指南</h1>
+      <p class="g7086-hero-lead">一个专注访问经验整理与路线复盘的原创影像社区，把每一次「找不到」变成一次有据可循的回家过程。</p>
+      <p class="g7086-hero-intro">
+        作为深耕网络访问经验领域的品牌官网，7086失效地址回家指南由一支持续运营的内容团队维护，围绕线路自检、工具评测、创作者记录与社区互助展开。我们坚持正版、高清、专业的内容标准，为普通用户与企业伙伴搭建值得信赖的内容生态。
+      </p>
+      <div class="g7086-hero-btns">
+        <a class="g7086-btn g7086-btn-primary" href="#g7086-focus">查看本期焦点</a>
+        <button class="g7086-btn g7086-btn-ghost" data-g7086-open="submit">投稿与报名</button>
+        <button class="g7086-btn g7086-btn-ghost" data-g7086-open="share">分享给同路人</button>
+      </div>
+      <div class="g7086-hero-stats">
+        <div class="g7086-stat"><b>1,286</b><span>原创内容条目</span></div>
+        <div class="g7086-stat"><b>96.4%</b><span>社区口碑好评</span></div>
+        <div class="g7086-stat"><b>42.7万</b><span>累计同行用户</span></div>
+      </div>
+    </div>
+    <div class="g7086-hero-visual">
+      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23152a45'/%3E%3Cstop offset='1' stop-color='%232a4f78'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' y1='0' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%2337c4a8' stop-opacity='.9'/%3E%3Cstop offset='1' stop-color='%23ffc857' stop-opacity='.9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='400' fill='url(%23a)'/%3E%3Cg stroke='%23ffffff' stroke-opacity='.10'%3E%3Cpath d='M0 100 H640 M0 200 H640 M0 300 H640'/%3E%3Cpath d='M120 0 V400 M240 0 V400 M360 0 V400 M480 0 V400'/%3E%3C/g%3E%3Cpath d='M80 300 L200 190 L300 250 L420 140 L560 210' fill='none' stroke='url(%23b)' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='200' cy='190' r='11' fill='%2337c4a8'/%3E%3Ccircle cx='420' cy='140' r='11' fill='%23ffc857'/%3E%3Ccircle cx='560' cy='210' r='11' fill='%23ffffff'/%3E%3Crect x='70' y='330' width='160' height='34' rx='17' fill='%23ffffff' fill-opacity='.10'/%3E%3Ctext x='88' y='353' font-family='sans-serif' font-size='15' fill='%23c8dcf0'%3E回家路线 · 复盘图%3C/text%3E%3C/svg%3E" alt="7086失效地址回家指南主视觉：深蓝路线图与节点连线" width="640" height="400">
+      <div class="g7086-hero-visual-cap"><span>品牌主视觉 · 路线复盘</span><span>2026 / 11</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 焦点视频 -->
+<section class="g7086-section" id="g7086-focus">
+  <div class="g7086-container">
+    <div class="g7086-sec-flex">
+      <div class="g7086-sec-head">
+        <span class="g7086-tag">视频焦点</span>
+        <h2>本周优先推荐：让回家路径可复现</h2>
+        <p>由编辑团队与一线创作者共同挑选，覆盖排查、记录、复盘三类实用场景，每一条都保留完整的判断依据，而不是只给结论。</p>
+      </div>
+      <button class="g7086-btn g7086-btn-line" data-g7086-open="share">复制本页链接</button>
+    </div>
+
+    <div class="g7086-focus-grid">
+      <article class="g7086-card">
+        <div class="g7086-card-media">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='c' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230f2c3d'/%3E%3Cstop offset='1' stop-color='%231b5c66'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23c)'/%3E%3Cg fill='none' stroke='%2337c4a8' stroke-width='3' stroke-opacity='.7'%3E%3Ccircle cx='400' cy='225' r='110'/%3E%3Ccircle cx='400' cy='225' r='60'/%3E%3Cpath d='M400 115 V175 M400 275 V335 M290 225 H340 M460 225 H510'/%3E%3C/g%3E%3Ccircle cx='400' cy='225' r='16' fill='%23ffc857'/%3E%3Ctext x='400' y='405' font-family='sans-serif' font-size='20' fill='%23d6e8f5' text-anchor='middle'%3E六步自检 · 线路诊断%3C/text%3E%3C/svg%3E" alt="视频焦点封面：线路自检六步法诊断示意图" width="800" height="450">
+          <span class="g7086-card-badge">焦点 · 高清</span>
+          <div class="g7086-card-play"><span>▶</span></div>
+        </div>
+        <div class="g7086-card-body">
+          <h3>失效之后先别急：六步自检法，把问题定位到具体环节</h3>
+          <p>从网络环境、缓存状态、设备时间到地址来源逐一排查，用一张流程图讲清楚「哪一步出了问题」。适合刚接触的普通用户，也适合帮家人远程处理。</p>
+          <div class="g7086-card-meta">
+            <span>作者：林岸记事</span>
+            <span>时长 18:42 · 3.2万次</span>
+          </div>
+          <div class="g7086-card-actions">
+            <button class="g7086-mini-btn" data-g7086-like>♡ 点赞 <b>0</b></button>
+            <button class="g7086-mini-btn" data-g7086-save>☆ 收藏</button>
+            <button class="g7086-mini-btn" data-g7086-open="comment">💬 评论</button>
+          </div>
+        </div>
+      </article>
+
+      <div class="g7086-focus-side">
+        <article class="g7086-card">
+          <div class="g7086-card-media">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='d' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2332302b'/%3E%3Cstop offset='1' stop-color='%236d5b3d'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23d)'/%3E%3Cg fill='%23ffc857' fill-opacity='.85'%3E%3Crect x='70' y='200' width='60' height='90' rx='6'/%3E%3Crect x='150' y='150' width='60' height='140' rx='6'/%3E%3Crect x='230' y='110' width='60' height='180' rx='6'/%3E%3C/g%3E%3Cg stroke='%23ffffff' stroke-opacity='.5' stroke-width='2'%3E%3Cpath d='M360 250 L430 190 L500 230 L570 160' fill='none'/%3E%3C/g%3E%3Ctext x='70' y='70' font-family='sans-serif' font-size='22' fill='%23f2e6c9'%3E工具对比 · 三个维度%3C/text%3E%3C/svg%3E" alt="视频封面：三款常用工具的横向对比图" width="640" height="360">
+            <span class="g7086-card-badge">测评</span>
+            <div class="g7086-card-play"><span>▶</span></div>
+          </div>
+          <div class="g7086-card-body">
+            <h3>工具怎么选？从记录、验证到备份的横向对比</h3>
+            <p>不吹参数，只讲使用场景。</p>
+            <div class="g7086-card-meta"><span>作者：拾光测评室</span><span>12:08</span></div>
+            <div class="g7086-card-actions">
+              <button class="g7086-mini-btn" data-g7086-like>♡ 点赞 <b>0</b></button>
+              <button class="g7086-mini-btn" data-g7086-save>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="g7086-card">
+          <div class="g7086-card-media">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='e' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23204a63'/%3E%3Cstop offset='1' stop-color='%232e7d8c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23e)'/%3E%3Cg stroke='%23ffffff' stroke-opacity='.35' stroke-width='2' fill='none'%3E%3Cpath d='M0 260 Q160 200 320 250 T640 220'/%3E%3Cpath d='M0 300 Q160 240 320 290 T640 260'/%3E%3C/g%3E%3Ccircle cx='500' cy='110' r='46' fill='%23ffc857' fill-opacity='.9'/%3E%3Ctext x='50' y='80' font-family='sans-serif' font-size='22' fill='%23e4f2f7'%3E家里长辈也能看懂%3C/text%3E%3C/svg%3E" alt="视频封面：面向家庭用户的分步讲解画面" width="640" height="360">
+            <span class="g7086-card-badge">实用技巧</span>
+            <div class="g7086-card-play"><span>▶</span></div>
+          </div>
+          <div class="g7086-card-body">
+            <h3>给爸妈讲一遍：远程协助的三句开场白</h3>
+            <p>沟通方式本身就是解决步骤的一部分。</p>
+            <div class="g7086-card-meta"><span>作者：南枝生活志</span><span>09:36</span></div>
+            <div class="g7086-card-actions">
+              <button class="g7086-mini-btn" data-g7086-like>♡ 点赞 <b>0</b></button>
+              <button class="g7086-mini-btn" data-g7086-save>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 热门视频流 -->
+<section class="g7086-section g7086-section-alt" id="g7086-stream">
+  <div class="g7086-container">
+    <div class="g7086-sec-flex">
+      <div class="g7086-sec-head">
+        <span class="g7086-tag">社区内容</span>
+        <h2>更多同路人的经验与记录</h2>
+        <p>按主题筛选，看看别人是怎么把「失效」变成一次可复用的处理过程。所有内容均为原创发布，标注真实来源与更新时间。</p>
+      </div>
+    </div>
+    <div class="g7086-filterbar" id="g7086-filterbar">
+      <button class="g7086-chip g7086-chip-active" data-g7086-filter="all">全部</button>
+      <button class="g7086-chip" data-g7086-filter="check">排查自检</button>
+      <button class="g7086-chip" data-g7086-filter="tool">工具测评</button>
+      <button class="g7086-chip" data-g7086-filter="story">人物故事</button>
+      <button class="g7086-chip" data-g7086-filter="diary">日常记录</button>
+    </div>
+
+    <div class="g7086-stream" id="g7086-stream-grid">
+      <article class="g7086-card" data-g7086-cat="check">
+        <div class="g7086-card-media">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='f' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231f3b2f'/%3E%3Cstop offset='1' stop-color='%233c7a5b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23f)'/%3E%3Cg fill='none' stroke='%23d9f0e3' stroke-width='3' stroke-opacity='.6'%3E%3Cpath d='M90 280 L190 180 L290 250 L400 130 L540 200'/%3E%3C/g%3E%3Cg fill='%23ffc857'%3E%3Ccircle cx='190' cy='180' r='9'/%3E%3Ccircle cx='400' cy='130' r='9'/%3E%3C/g%3E%3Ctext x='60' y='70' font-family='sans-serif' font-size='21' fill='%23e6f6ec'%3E缓存与时间：两个高频盲区%3C/text%3E%3C/svg%3E" alt="视频封面：缓存与设备时间排查示意图" width="640" height="360">
+          <span class="g7086-card-badge">排查自检</span>
+          <div class="g7086-card-play"><span>▶</span></div>
+        </div>
+        <div class="g7086-card-body">
+          <h3>90%的人忽略的两件事：缓存未清与设备时间错位</h3>
+          <p>很多「失效」其实不是地址问题。这期把两种最容易误判的情况拆开讲，附一张对照表。</p>
+          <div class="g7086-card-meta"><span>作者：林岸记事</span><span>14.6万次</span></div>
+          <div class="g7086-card-actions">
+            <button class="g7086-mini-btn" data-g7086-like>♡ 点赞 <b>0</b></button>
+            <button class="g7086-mini-btn" data-g7086-save>☆ 收藏</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="g7086-card" data-g7086-cat="tool">
+        <div class="g7086-card-media">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%233b2f52'/%3E%3Cstop offset='1' stop-color='%236b5c93'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23g)'/%3E%3Cg fill='%23ffffff' fill-opacity='.18'%3E%3Crect x='60' y='90' width='150' height='180' rx='10'/%3E%3Crect x='240' y='130' width='150' height='140' rx='10'/%3E%3Crect x='420' y='70' width='150' height='200' rx='10'/%3E%3C/g%3E%3Cg stroke='%23ffc857' stroke-width='3' fill='none'%3E%3Cpath d='M70 110 L120 160 L110 200'/%3E%3Cpath d='M430 95 L480 140 L470 180'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：三款记录工具界面并列对比" width="640" height="360">
+          <span class="g7086-card-badge">工具测评</span>
+          <div class="g7086-card-play"><span>▶</span></div>
+        </div>
+        <div class="g7086-card-body">
+          <h3>记录 vs 备份：两款轻量工具 30 天实测</h3>
+          <p>连续 30 天记录每次访问状态，看哪一款更适合普通用户维护自己的路线清单。</p>
+          <div class="g7086-card-meta"><span>作者：拾光测评室</span><span>8.9万次</span></div>
+          <div class="g7086-card-actions">
+            <button class="g7086-mini-btn" data-g7086-like>♡ 点赞 <b>0</b></button>
+            <button class="g7086-mini-btn" data-g7086-save>☆ 收藏</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="g7086-card" data-g7086-cat="story">
+        <div class="g7086-card-media">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='h' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%238a5a3b'/%3E%3Cstop offset='1' stop-color='%23c98b5a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23h)'/%3E%3Ccircle cx='470' cy='120' r='60' fill='%23ffe4b8' fill-opacity='.72'/%3E%3Cpath d='M90 300 Q200 220 320 280 T560 250' stroke='%23fff3e0' stroke-width='3' fill='none' stroke-opacity='.7'/%3E%3Cg fill='%23ffffff' fill-opacity='.7'%3E%3Ccircle cx='180' cy='150' r='6'/%3E%3Ccircle cx='250' cy='120' r='4'/%3E%3Ccircle cx='330' cy='170' r='5'/%3E%3C/g%3E%3Ctext x='60' y='70' font-family='sans-serif' font-size='21' fill='%23fff6ea'%3E异地工作的第 800 天%3C/text%3E%3C/svg%3E" alt="视频封面：异地工作者的黄昏窗景插画" width="640" height="360">
+          <span class="g7086-card-badge">人物故事</span>
+          <div class="g7086-card-play"><span>▶</span></div>
+        </div>
+        <div class="g7086-card-body">
+          <h3>一个异地工作者的回家路线手账</h3>
+          <p>他把每次回家的路径画进笔记本，两年攒了 47 页。这期聊记录的意义。</p>
+          <div class="g7086-card-meta"><span>作者：江上有风</span><span>6.4万次</span></div>
+          <div class="g7086-card-actions">
+            <button class="g7086-mini-btn" data-g7086-like>♡ 点赞 <b>0</b></button>
+            <button class="g7086-mini-btn" data-g7086-save>☆ 收藏</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="g7086-card" data-g7086-cat="diary">
+        <div class="g7086-card-media">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='i' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231d2b3f'/%3E%3Cstop offset='1' stop-color='%233d5f80'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23i)'/%3E%3Cg stroke='%23a9d6ff' stroke-opacity='.38' stroke-width='1.5'%3E%3Cpath d='M0 330 H640 M0 270 H640 M0 210 H640'/%3E%3C/g%3E%3Crect x='80' y='120' width='200' height='120' rx='8' fill='%2337c4a8' fill-opacity='.28'/%3E%3Crect x='330' y='90' width='150' height='150' rx='8' fill='%23ffc857' fill-opacity='.30'/%3E%3Ctext x='80' y='80' font-family='sans-serif' font-size='20' fill='%23dceafb'%3E深夜桌面 · 一次整理%3C/text%3E%3C/svg%3E" alt="视频封面：深夜桌面整理路线的记录画面" width="640" height="360">
+          <span class="g7086-card-badge">日常记录</span>
+          <div class="g7086-card-play"><span>▶</span></div>
+        </div>
+        <div class="g7086-card-body">
+          <h3>深夜整理路线清单：我的 11 月复盘</h3>
+          <p>把一个月里遇到的情况归成三类，删掉无效项，留下能长期使用的部分。</p>
+          <div class="g7086-card-meta"><span>作者：木野手记</span><span>5.2万次</span></div>
+          <div class="g7086-card-actions">
+            <button class="g7086-mini-btn" data-g7086-like>♡ 点赞 <b>0</b></button>
+            <button class="g7086-mini-btn" data-g7086-save>☆ 收藏</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="g7086-card" data-g7086-cat="check">
+        <div class="g7086-card-media">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='j' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%232a3d2e'/%3E%3Cstop offset='1' stop-color='%23548c5f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23j)'/%3E%3Cg fill='none' stroke='%23e6f7e3' stroke-width='2.5' stroke-opacity='.6'%3E%3Crect x='90' y='80' width='460' height='200' rx='14'/%3E%3Cpath d='M90 150 H550 M90 210 H550'/%3E%3C/g%3E%3Ctext x='120' y='130' font-family='sans-serif' font-size='18' fill='%23dff3dd'%3E核对清单 · 8 项%3C/text%3E%3Ccircle cx='500' cy='180' r='16' fill='%23ffc857'/%3E%3C/svg%3E" alt="视频封面：八项核对清单界面示意图" width="640" height="360">
+          <span class="g7086-card-badge">排查自检</span>
+          <div class="g7086-card-play"><span>▶</span></div>
+        </div>
+        <div class="g7086-card-body">
+          <h3>一张纸的核对清单：出门前 8 项快速确认</h3>
+          <p>打印出来贴在桌前，遇到问题按顺序打完勾，基本能排除大部分误判。</p>
+          <div class="g7086-card-meta"><span>作者：南枝生活志</span><span>4.8万次</span></div>
+          <div class="g7086-card-actions">
+            <button class="g7086-mini-btn" data-g7086-like>♡ 点赞 <b>0</b></button>
+            <button class="g7086-mini-btn" data-g7086-save>☆ 收藏</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="g7086-card" data-g7086-cat="story">
+        <div class="g7086-card-media">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='k' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234b2f4a'/%3E%3Cstop offset='1' stop-color='%238a5578'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23k)'/%3E%3Cg fill='%23ffd9ef' fill-opacity='.65'%3E%3Ccircle cx='140' cy='120' r='34'/%3E%3Ccircle cx='240' cy='100' r='24'/%3E%3Ccircle cx='330' cy='140' r='28'/%3E%3C/g%3E%3Cg stroke='%23ffffff' stroke-opacity='.45' stroke-width='2' fill='none'%3E%3Cpath d='M90 280 Q200 220 300 260 T560 240'/%3E%3C/g%3E%3Ctext x='60' y='70' font-family='sans-serif' font-size='21' fill='%23ffe9f6'%3E和妈妈一起学的第一次%3C/text%3E%3C/svg%3E" alt="视频封面：母女一起学习的温馨插画" width="640" height="360">
+          <span class="g7086-card-badge">人物故事</span>
+          <div class="g7086-card-play"><span>▶</span></div>
+        </div>
+        <div class="g7086-card-body">
+          <h3>教会妈妈之后，她把步骤抄在了便利贴上</h3>
+          <p>一张便利贴，一份耐心。这期我们聊聊陪伴式教学里的小技巧。</p>
+          <div class="g7086-card-meta"><span>作者：素心影像</span><span>4.1万次</span></div>
+          <div class="g7086-card-actions">
+            <button class="g7086-mini-btn" data-g7086-like>♡ 点赞 <b>0</b></button>
+            <button class="g7086-mini-btn" data-g7086-save>☆ 收藏</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 专题企划 -->
+<section class="g7086-section" id="g7086-topics">
+  <div class="g7086-container">
+    <div class="g7086-sec-head">
+      <span class="g7086-tag">专题企划</span>
+      <h2>正在持续更新的四个专题</h2>
+      <p>每个专题由编辑团队统筹，创作者共同参与，按季度推进。专题内容均可在站内检索，欢迎报名参与后续更新。</p>
+    </div>
+    <div class="g7086-topics">
+      <a class="g7086-topic" href="#g7086-stream">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 320'%3E%3Cdefs%3E%3ClinearGradient id='l' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230e2e3a'/%3E%3Cstop offset='1' stop-color='%232a6b7a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='320' fill='url(%23l)'/%3E%3Cg fill='none' stroke='%2337c4a8' stroke-width='2.5' stroke-opacity='.7'%3E%3Cpath d='M60 250 L150 170 L240 220 L330 130 L420 190'/%3E%3C/g%3E%3Ccircle cx='150' cy='170' r='8' fill='%23ffc857'/%3E%3Ccircle cx='330' cy='130' r='8' fill='%23ffffff'/%3E%3C/svg%3E" alt="专题封面：线路自检全流程主视觉" width="480" height="320">
+        <div>
+          <h3>专题 · 自检全流程</h3>
+          <p>从排查到复盘，共 12 期，更新中</p>
+          <span class="g7086-tag">进行中</span>
+        </div>
+      </a>
+      <a class="g7086-topic" href="#g7086-creators">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 320'%3E%3Cdefs%3E%3ClinearGradient id='m' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23532f4f'/%3E%3Cstop offset='1' stop-color='%2390587f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='320' fill='url(%23m)'/%3E%3Cg fill='%23ffe1f3' fill-opacity='.7'%3E%3Ccircle cx='120' cy='110' r='38'/%3E%3Ccircle cx='260' cy='90' r='26'/%3E%3Ccircle cx='360' cy='130' r='30'/%3E%3C/g%3E%3C/svg%3E" alt="专题封面：回家路上的人物访谈企划" width="480" height="320">
+        <div>
+          <h3>专题 · 回家路上</h3>
+          <p>八位创作者的真实故事，已完结</p>
+          <span class="g7086-tag">已完结</span>
+        </div>
+      </a>
+      <a class="g7086-topic" href="#g7086-rank">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 320'%3E%3Cdefs%3E%3ClinearGradient id='n' x1='1' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%233a3020'/%3E%3Cstop offset='1' stop-color='%238a6c34'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='320' fill='url(%23n)'/%3E%3Cg fill='%23ffc857'%3E%3Crect x='80' y='200' width='50' height='70'/%3E%3Crect x='160' y='160' width='50' height='110'/%3E%3Crect x='240' y='120' width='50' height='150'/%3E%3Crect x='320' y='180' width='50' height='90'/%3E%3C/g%3E%3C/svg%3E" alt="专题封面：年度口碑榜单柱状图主视觉" width="480" height="320">
+        <div>
+          <h3>专题 · 年度口碑榜</h3>
+          <p>由社区投票产生的年度推荐，征集中</p>
+          <span class="g7086-tag">征集中</span>
+        </div>
+      </a>
+      <a class="g7086-topic" href="#g7086-deep">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 320'%3E%3Cdefs%3E%3ClinearGradient id='o' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23243a2c'/%3E%3Cstop offset='1' stop-color='%234f7f5a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='320' fill='url(%23o)'/%3E%3Cg stroke='%23d9f0dc' stroke-opacity='.5' stroke-width='2' fill='none'%3E%3Cpath d='M60 260 Q160 180 260 230 T420 200'/%3E%3C/g%3E%3Ccircle cx='380' cy='90' r='34' fill='%23ffc857' fill-opacity='.8'/%3E%3C/svg%3E" alt="专题封面：数字生活里的回家感深度解析主视觉" width="480" height="320">
+        <div>
+          <h3>专题 · 数字生活里的回家感</h3>
+          <p>深度长文与影像合集，长期开放</p>
+          <span class="g7086-tag">长期</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 深度解析 -->
+<section class="g7086-section g7086-section-alt" id="g7086-deep">
+  <div class="g7086-container g7086-deep">
+    <div class="g7086-deep-art">
+      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 650'%3E%3Cdefs%3E%3ClinearGradient id='p' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23122336'/%3E%3Cstop offset='1' stop-color='%232c5570'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='520' height='650' fill='url(%23p)'/%3E%3Cg stroke='%23ffffff' stroke-opacity='.10'%3E%3Cpath d='M0 130 H520 M0 260 H520 M0 390 H520 M0 520 H520'/%3E%3Cpath d='M130 0 V650 M260 0 V650 M390 0 V650'/%3E%3C/g%3E%3Ccircle cx='260' cy='300' r='120' fill='none' stroke='%2337c4a8' stroke-width='3' stroke-opacity='.8'/%3E%3Ccircle cx='260' cy='300' r='70' fill='none' stroke='%23ffc857' stroke-width='3' stroke-opacity='.8'/%3E%3Ccircle cx='260' cy='300' r='16' fill='%23ffc857'/%3E%3Cpath d='M260 180 V120 M260 480 V540 M140 300 H80 M380 300 H440' stroke='%23ffffff' stroke-opacity='.5' stroke-width='2'/%3E%3Ctext x='260' y='600' text-anchor='middle' font-family='sans-serif' font-size='22' fill='%23d9e8f6'%3E为什么「回家」值得被记录%3C/text%3E%3C/svg%3E" alt="深度解析配图：回家路径同心圆结构图" width="520" height="650">
+    </div>
+    <div class="g7086-deep-body">
+      <span class="g7086-tag">品牌深度解析</span>
+      <h2>7086失效地址回家指南，究竟在整理什么</h2>
+      <p>对很多人来说，「7086失效地址回家指南」这几个字像一句暗号：它指向的不是某个具体工具，而是一种反复出现的处境——原本熟悉的路忽然走不通了，需要重新找回方向。作为一家围绕这件事持续运营的品牌官网，我们想做的事情很朴素：把这个过程记录下来、拆解清楚、讲得明白。</p>
+      <p>我们把它拆成三个层次。第一层是「现象」，也就是失效的具体表现：页面打不开、加载停滞、内容错位、来源不明。第二层是「原因」，涉及网络环境、设备状态、缓存与时间同步、地址来源的可靠性。第三层是「方法」，即一个人在面对未知时，能不能靠一套稳定的流程，把自己从慌张里拉出来。</p>
+      <div class="g7086-quotebox">「回家」这两个字的重量，不在技术难度，而在确定性。我们做内容的第一目标，是让用户重新获得确定感。</div>
+      <h3>为什么坚持做原创影像</h3>
+      <p>视频是最适合还原过程的媒介。一次排查里的犹豫、一次误判、一次恍然大悟，只有影像能完整保留。我们要求每一条内容都标注真实的时间、环境与操作步骤，不做夸大的标题，也不把结论夸大成承诺。原创、正版、高清，是我们对内容品质的基本要求，也是社区口碑能长期维持的原因。</p>
+      <h3>内容生态如何运转</h3>
+      <p>编辑团队负责专题企划与事实核查，创作者负责一线记录与经验分享，社区用户通过评论、投票与投稿参与其中。每季度我们会对全部条目做一次复盘，把过时内容标注归档，把新方法补充进去。这个过程看起来笨拙，但它是内容生态能够持续生长的前提。我们相信，值得信赖的信息来自长期积累，而不是一次性的热闹。</p>
+      <h3>关于未来的计划</h3>
+      <p>接下来一年，我们会把「自检全流程」专题扩展到家庭场景与办公场景，开放更多投稿入口，并尝试用更清晰的可视化方式呈现路线变化。我们不追求成为最大的平台，而是希望成为普通用户在需要时第一个想起的地方——一个真实、温暖、有力量的品牌官网。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 创作者 -->
+<section class="g7086-section" id="g7086-creators">
+  <div class="g7086-container">
+    <div class="g7086-sec-head">
+      <span class="g7086-tag">创作者矩阵</span>
+      <h2>一起把经验讲清楚的六位伙伴</h2>
+      <p>他们来自不同城市、不同职业，但都在用自己的方式记录「回家」这件事。点击卡片可查看作者简介与合作方式。</p>
+    </div>
+    <div class="g7086-creators">
+      <div class="g7086-creator" data-g7086-author="林岸记事" data-g7086-desc="技术编辑，擅长把复杂流程拆成可执行步骤，代表作《六步自检法》系列。">
+        <div class="g7086-avatar" style="background:linear-gradient(135deg,#1c3f5e,#37c4a8)">林</div>
+        <h3>林岸记事</h3>
+        <div class="g7086-role">排查自检 · 技术编辑</div>
+        <p>擅长把复杂流程拆成可执行步骤，语言克制，信息密度高。</p>
+        <div class="g7086-creator-stats"><span><b>86</b>作品</span><span><b>12.4万</b>关注</span></div>
+      </div>
+      <div class="g7086-creator" data-g7086-author="南枝生活志" data-g7086-desc="生活方式记录者，关注家庭沟通与陪伴式教学，内容温柔有耐心。">
+        <div class="g7086-avatar" style="background:linear-gradient(135deg,#8a5a3b,#ffc857)">南</div>
+        <h3>南枝生活志</h3>
+        <div class="g7086-role">日常记录 · 生活博主</div>
+        <p>关注家庭沟通与陪伴式教学，用生活化语言讲清实用方法。</p>
+        <div class="g7086-creator-stats"><span><b>64</b>作品</span><span><b>9.8万</b>关注</span></div>
+      </div>
+      <div class="g7086-creator" data-g7086-author="拾光测评室" data-g7086-desc="独立测评团队，坚持长期实测与公开数据，不做夸张结论。">
+        <div class="g7086-avatar" style="background:linear-gradient(135deg,#3b2f52,#8a6cff)">拾</div>
+        <h3>拾光测评室</h3>
+        <div class="g7086-role">深度测评 · 工具观察</div>
+        <p>坚持长期实测与公开数据，只讲使用场景，不堆砌参数。</p>
+        <div class="g7086-creator-stats"><span><b>52</b>作品</span><span><b>8.1万</b>关注</span></div>
+      </div>
+      <div class="g7086-creator" data-g7086-author="江上有风" data-g7086-desc="人物访谈作者，记录普通人的城市迁徙与归属感，风格细腻。">
+        <div class="g7086-avatar" style="background:linear-gradient(135deg,#2a6b7a,#a9d6ff)">江</div>
+        <h3>江上有风</h3>
+        <div class="g7086-role">人物访谈 · 城市记录</div>
+        <p>记录普通人的迁徙与归属感，善于在细节里找到情绪的落点。</p>
+        <div class="g7086-creator-stats"><span><b>41</b>作品</span><span><b>6.7万</b>关注</span></div>
+      </div>
+      <div class="g7086-creator" data-g7086-author="素心影像" data-g7086-desc="影像创作者，专注家庭题材与治愈系短片，画面温暖。">
+        <div class="g7086-avatar" style="background:linear-gradient(135deg,#8a5578,#ffd9ef)">素</div>
+        <h3>素心影像</h3>
+        <div class="g7086-role">治愈影像 · 家庭题材</div>
+        <p>用温柔的画面讲家庭故事，擅长捕捉生活里的小小转折。</p>
+        <div class="g7086-creator-stats"><span><b>37</b>作品</span><span><b>5.9万</b>关注</span></div>
+      </div>
+      <div class="g7086-creator" data-g7086-author="木野手记" data-g7086-desc="自由创作者，喜欢用手账与清单管理信息，内容实用且有条理。">
+        <div class="g7086-avatar" style="background:linear-gradient(135deg,#2a3d2e,#548c5f)">木</div>
+        <h3>木野手记</h3>
+        <div class="g7086-role">清单管理 · 日常复盘</div>
+        <p>用手账与清单管理信息，把每月经验整理成可检索的条目。</p>
+        <div class="g7086-creator-stats"><span><b>29</b>作品</span><span><b>4.6万</b>关注</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 作品墙 -->
+<section class="g7086-section g7086-section-alt" id="g7086-wall">
+  <div class="g7086-container">
+    <div class="g7086-sec-head">
+      <span class="g7086-tag">影像墙</span>
+      <h2>社区影像墙：每一帧都来自真实记录</h2>
+      <p>这些画面来自创作者的日常拍摄与截图整理，用于说明具体场景，不构成任何商业承诺。</p>
+    </div>
+    <div class="g7086-wall">
+      <figure class="g7086-wall-item g7086-wall-big" style="margin:0">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 440'%3E%3Cdefs%3E%3ClinearGradient id='q' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230f2c3d'/%3E%3Cstop offset='1' stop-color='%233f7f8f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='440' fill='url(%23q)'/%3E%3Cg stroke='%23d6ecf6' stroke-opacity='.45' stroke-width='2' fill='none'%3E%3Cpath d='M70 360 Q180 250 300 310 T570 260'/%3E%3C/g%3E%3Ccircle cx='500' cy='110' r='48' fill='%23ffc857' fill-opacity='.85'/%3E%3C/svg%3E" alt="影像墙大图：清晨窗边整理路线的桌面" width="640" height="440">
+        <span>清晨桌面 · 路线整理</span>
+      </figure>
+      <figure class="g7086-wall-item g7086-wall-mid" style="margin:0">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 300'%3E%3Cdefs%3E%3ClinearGradient id='r' x1='0' y1='0' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%234b2f4a'/%3E%3Cstop offset='1' stop-color='%2390587f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='300' fill='url(%23r)'/%3E%3Cg fill='%23ffe1f3' fill-opacity='.7'%3E%3Ccircle cx='120' cy='100' r='30'/%3E%3Ccircle cx='240' cy='80' r='22'/%3E%3Ccircle cx='350' cy='120' r='26'/%3E%3C/g%3E%3C/svg%3E" alt="影像墙中图：母女一起做笔记的场景" width="480" height="300">
+        <span>陪伴式教学 · 笔记</span>
+      </figure>
+      <figure class="g7086-wall-item g7086-wall-sml" style="margin:0">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 320'%3E%3Crect width='320' height='320' fill='%232a3d2e'/%3E%3Cg fill='none' stroke='%23a9d6a9' stroke-width='3' stroke-opacity='.7'%3E%3Crect x='70' y='80' width='180' height='160' rx='10'/%3E%3Cpath d='M70 150 H250 M70 200 H250'/%3E%3C/g%3E%3C/svg%3E" alt="影像墙小图：核对清单打印版" width="320" height="320">
+        <span>清单打印版</span>
+      </figure>
+      <figure class="g7086-wall-item g7086-wall-sml" style="margin:0">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 320'%3E%3Crect width='320' height='320' fill='%233b2f52'/%3E%3Cg fill='%23ffffff' fill-opacity='.2'%3E%3Crect x='60' y='80' width='80' height='150' rx='8'/%3E%3Crect x='170' y='110' width='80' height='120' rx='8'/%3E%3C/g%3E%3Cg stroke='%23ffc857' stroke-width='3' fill='none'%3E%3Cpath d='M70 100 L110 140'/%3E%3C/g%3E%3C/svg%3E" alt="影像墙小图：两款工具并排截图" width="320" height="320">
+        <span>工具对比截图</span>
+      </figure>
+      <figure class="g7086-wall-item g7086-wall-sml" style="margin:0">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 320'%3E%3Crect width='320' height='320' fill='%238a5a3b'/%3E%3Ccircle cx='200' cy='110' r='40' fill='%23ffe4b8' fill-opacity='.8'/%3E%3Cpath d='M40 260 Q140 200 240 250 T310 230' stroke='%23fff3e0' stroke-width='3' fill='none' stroke-opacity='.7'/%3E%3C/svg%3E" alt="影像墙小图：手账本上的路线草图" width="320" height="320">
+        <span>路线手账草稿</span>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 榜单 -->
+<section class="g7086-section" id="g7086-rank">
+  <div class="g7086-container">
+    <div class="g7086-sec-head">
+      <span class="g7086-tag">社区榜单</span>
+      <h2>本周三类榜单，看看大家在关注什么</h2>
+      <p>榜单由真实互动数据与编辑复核共同产生，每周一更新，旨在帮助新用户快速找到值得一看的内容。</p>
+    </div>
+    <div class="g7086-rank">
+      <div class="g7086-rank-col">
+        <h3><i></i>热度榜</h3>
+        <div class="g7086-rank-item"><span class="g7086-rank-no">1</span><span>失效之后先别急：六步自检法</span><em>3.2万</em></div>
+        <div class="g7086-rank-item"><span class="g7086-rank-no">2</span><span>缓存与设备时间两个高频盲区</span><em>2.7万</em></div>
+        <div class="g7086-rank-item"><span class="g7086-rank-no">3</span><span>两张纸的核对清单完整版</span><em>2.1万</em></div>
+        <div class="g7086-rank-item"><span class="g7086-rank-no">4</span><span>工具怎么选：三维度对比</span><em>1.8万</em></div>
+      </div>
+      <div class="g7086-rank-col">
+        <h3><i></i>新人榜</h3>
+        <div class="g7086-rank-item"><span class="g7086-rank-no">1</span><span>第一次做远程协助的完整记录</span><em>素心影像</em></div>
+        <div class="g7086-rank-item"><span class="g7086-rank-no">2</span><span>我的十一月路线复盘手账</span><em>木野手记</em></div>
+        <div class="g7086-rank-item"><span class="g7086-rank-no">3</span><span>一张图讲清地址来源判断</span><em>林岸记事</em></div>
+        <div class="g7086-rank-item"><span class="g7086-rank-no">4</span><span>从慌乱到有条理的三周</span><em>江上有风</em></div>
+      </div>
+      <div class="g7086-rank-col">
+        <h3><i></i>口碑榜</h3>
+        <div class="g7086-rank-item"><span class="g7086-rank-no">1</span><span>家里长辈也能看懂的讲解</span><em>9.6分</em></div>
+        <div class="g7086-rank-item"><span class="g7086-rank-no">2</span><span>30天实测：记录与备份对比</span><em>9.3分</em></div>
+        <div class="g7086-rank-item"><span class="g7086-rank-no">3</span><span>工具之外的沟通细节</span><em>9.1分</em></div>
+        <div class="g7086-rank-item"><span class="g7086-rank-no">4</span><span>年度专题深度解析合集</span><em>8.9分</em></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 评价 -->
+<section class="g7086-section g7086-section-alt" id="g7086-reviews">
+  <div class="g7086-container">
+    <div class="g7086-sec-head">
+      <span class="g7086-tag">用户评价</span>
+      <h2>来自社区的真实反馈</h2>
+      <p>以下评价摘录自站内评论区与用户反馈，已获授权展示，保留原始语气与细节。</p>
+    </div>
+    <div class="g7086-reviews">
+      <div class="g7086-review">
+        <p>第一次看到有人把排查步骤讲得这么细，尤其是「先检查设备时间」那一段，我之前完全没想到。</p>
+        <div class="g7086-review-who"><span class="g7086-avatar" style="background:linear-gradient(135deg,#1c3f5e,#37c4a8)">陈</span><div><b>陈屿</b><small>普通用户</small></div></div>
+      </div>
+      <div class="g7086-review">
+        <p>给爸妈转过去，他们说这次终于看懂了。以前我讲十遍都不如这条视频讲一遍。</p>
+        <div class="g7086-review-who"><span class="g7086-avatar" style="background:linear-gradient(135deg,#8a5a3b,#ffc857)">周</span><div><b>周小满</b><small>社区成员</small></div></div>
+      </div>
+      <div class="g7086-review">
+        <p>内容很克制，没有那种夸张的标题，看完能自己动手试试，这点很难得。</p>
+        <div class="g7086-review-who"><span class="g7086-avatar" style="background:linear-gradient(135deg,#3b2f52,#8a6cff)">李</span><div><b>李知远</b><small>产品从业者</small></div></div>
+      </div>
+      <div class="g7086-review">
+        <p>希望以后能多一些办公场景的内容，公司里同事遇到的问题也挺多的。</p>
+        <div class="g7086-review-who"><span class="g7086-avatar" style="background:linear-gradient(135deg,#2a6b7a,#a9d6ff)">吴</span><div><b>吴桐</b><small>企业用户</small></div></div>
+      </div>
+      <div class="g7086-review">
+        <p>影像墙里的桌面照片特别有代入感，原来大家都在为同一件事忙活。</p>
+        <div class="g7086-review-who"><span class="g7086-avatar" style="background:linear-gradient(135deg,#8a5578,#ffd9ef)">沈</span><div><b>沈青禾</b><small>影像爱好者</small></div></div>
+      </div>
+      <div class="g7086-review">
+        <p>投稿流程很顺，编辑还回了邮件给了修改建议，这种认真程度让人愿意再来一次。</p>
+        <div class="g7086-review-who"><span class="g7086-avatar" style="background:linear-gradient(135deg,#2a3d2e,#548c5f)">许</span><div><b>许向南</b><small>投稿创作者</small></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 企业动态 + 合作 -->
+<section class="g7086-section" id="g7086-updates">
+  <div class="g7086-container">
+    <div class="g7086-sec-flex">
+      <div class="g7086-sec-head">
+        <span class="g7086-tag">企业动态</span>
+        <h2>官方发布与内容更新</h2>
+        <p>品牌官网的每一次更新都会在这里登记，方便用户核对版本与时间。</p>
+      </div>
+      <button class="g7086-btn g7086-btn-line" data-g7086-open="submit">参与投稿挑战赛</button>
+    </div>
+    <div class="g7086-updates">
+      <div class="g7086-update">
+        <time datetime="2026-11-19">2026年11月19日</time>
+        <h3>「自检全流程」专题更新至第 8 期</h3>
+        <p>新增图文对照表与打印版清单，支持站内检索与下载。</p>
+      </div>
+      <div class="g7086-update">
+        <time datetime="2026-11-10">2026年11月10日</time>
+        <h3>冬季投稿挑战赛开放报名</h3>
+        <p>面向全部创作者开放，主题为「我的一次回家路」，报名截止 12 月 5 日。</p>
+      </div>
+      <div class="g7086-update">
+        <time datetime="2026-10-28">2026年10月28日</time>
+        <h3>社区口碑榜上线试运行</h3>
+        <p>由用户投票与编辑复核共同产生，首批收录 36 条精品内容。</p>
+      </div>
+      <div class="g7086-update">
+        <time datetime="2026-10-12">2026年10月12日</time>
+        <h3>创作者合作计划发布</h3>
+        <p>面向影像、访谈、测评方向开放长期合作，提供选题支持与制作协助。</p>
+      </div>
+    </div>
+    <div style="margin-top:34px">
+      <div class="g7086-sec-head" style="margin-bottom:18px">
+        <h3 style="font-size:16px;color:var(--g7086-navy)">合作品牌与伙伴</h3>
+      </div>
+      <div class="g7086-partners">
+        <span class="g7086-partner">青岸影像工作室</span>
+        <span class="g7086-partner">拾光文化</span>
+        <span class="g7086-partner">南山数字实验室</span>
+        <span class="g7086-partner">木野手作</span>
+        <span class="g7086-partner">江上内容社</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="g7086-section g7086-section-alt" id="g7086-faq">
+  <div class="g7086-container">
+    <div class="g7086-sec-head" style="text-align:center;margin-left:auto;margin-right:auto">
+      <span class="g7086-tag">帮助中心</span>
+      <h2>常见问题解答</h2>
+      <p>关于内容使用、投稿合作与社区规则，这里整理了最常被问到的七个问题。</p>
+    </div>
+    <div class="g7086-faq">
+      <details open>
+        <summary>这个网站的内容主要讲什么？</summary>
+        <p>7086失效地址回家指南是一个围绕访问经验整理的内容社区，重点在于排查思路、工具使用与真实记录，不提供任何具体线路的承诺或担保，所有内容仅作经验分享。</p>
+      </details>
+      <details>
+        <summary>内容可以转载或二次使用吗？</summary>
+        <p>站内原创图文与影像版权归创作者与品牌方共同所有。个人学习场景下可注明来源后引用，商业用途需通过联系我们页面提交授权申请。</p>
+      </details>
+      <details>
+        <summary>如何参与投稿？</summary>
+        <p>点击页面中的「投稿与报名」按钮，填写创作者名称、内容方向与联系方式即可。编辑会在五个工作日内回复，通过后会协助完成排版与事实核查。</p>
+      </details>
+      <details>
+        <summary>为什么有些内容标注「已归档」？</summary>
+        <p>访问经验具有时效性。当相关内容的方法或环境发生变化时，我们会将其标注为已归档，仍可查阅，但会在页面顶部提示读者注意时间背景。</p>
+      </details>
+      <details>
+        <summary>社区对评论有什么要求？</summary>
+        <p>我们鼓励具体、有细节的讨论。涉及个人隐私、未经核实的信息或商业推广的评论会被折叠，多次违规将限制发言权限。</p>
+      </details>
+      <details>
+        <summary>是否提供企业合作？</summary>
+        <p>提供。我们与影像工作室、文化机构与内容团队保持长期合作，可提供专题共建、内容制作与品牌栏目策划，欢迎通过联系邮箱沟通。</p>
+      </details>
+      <details>
+        <summary>如何关注更新？</summary>
+        <p>建议收藏本页并关注「企业动态」栏目，重要更新会同步出现在顶部公告条。你也可以在联系我们页面留下邮箱，接收每月一期的内容简报。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- 联系 -->
+<section class="g7086-section" id="g7086-contact">
+  <div class="g7086-container">
+    <div class="g7086-contact">
+      <div>
+        <h2>和我们一起，把回家这件事讲得更清楚</h2>
+        <p>无论你是想投稿、想合作，还是想指出内容里的错误，我们都欢迎。品牌官网的每个入口都有人值守，工作日内通常 24 小时内回复。</p>
+        <p style="margin-bottom:0;font-size:13px;color:#93a9c4">邮箱：hello@7086guide.example ｜ 工作时间：周一至周五 10:00–18:00 ｜ 内容合作：partner@7086guide.example</p>
+      </div>
+      <div class="g7086-contact-actions">
+        <button class="g7086-btn g7086-btn-primary" data-g7086-open="submit">投稿与报名</button>
+        <button class="g7086-btn g7086-btn-ghost" data-g7086-open="share">分享本页</button>
+        <button class="g7086-btn g7086-btn-ghost" data-g7086-open="feedback">反馈问题</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="g7086-footer">
+  <div class="g7086-container">
+    <div class="g7086-footer-grid">
+      <div>
+        <div class="g7086-brand" style="margin-bottom:12px">
+          <span class="g7086-brand-mark">7086</span>
+          <span class="g7086-brand-text"><strong>7086 回家指南</strong><small>品牌官网 · 内容社区</small></span>
+        </div>
+        <p style="margin:0;font-size:12.5px;line-height:1.9">7086失效地址回家指南官方网站，持续运营中的原创内容品牌，专注访问经验整理、影像记录与社区互助。我们坚持用户至上与匠心制作，希望每一份内容都经得起时间检验。</p>
+      </div>
+      <div>
+        <h4>内容栏目</h4>
+        <a href="#g7086-focus">视频焦点</a>
+        <a href="#g7086-stream">社区内容</a>
+        <a href="#g7086-topics">专题企划</a>
+        <a href="#g7086-wall">影像墙</a>
+      </div>
+      <div>
+        <h4>关于我们</h4>
+        <a href="#g7086-deep">品牌故事</a>
+        <a href="#g7086-creators">创作者矩阵</a>
+        <a href="#g7086-updates">企业动态</a>
+        <a href="#g7086-faq">帮助中心</a>
+      </div>
+      <div>
+        <h4>参与方式</h4>
+        <a href="#g7086-contact">联系与合作</a>
+        <a href="#g7086-contact">投稿入口</a>
+        <a href="#g7086-rank">社区榜单</a>
+        <a href="#g7086-home">返回首页</a>
+      </div>
+    </div>
+    <div class="g7086-footer-bottom">
+      <span>© 2026 7086失效地址回家指南 官方网站 · 版权所有 · 持续运营中</span>
+      <span>内容仅供经验参考 · 品牌备案号：示例备 2026-7086 号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="g7086-totop" id="g7086-totop" aria-label="回到顶部">↑</button>
+<div class="g7086-toast" id="g7086-toast" role="status" aria-live="polite"></div>
+
+<!-- 通用弹窗 -->
+<div class="g7086-modal" id="g7086-modal">
+  <div class="g7086-modal-box">
+    <button class="g7086-modal-close" id="g7086-modal-close" aria-label="关闭">✕</button>
+    <div id="g7086-modal-content"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var $ = function(sel, root){ return (root || document).querySelector(sel); };
+  var $$ = function(sel, root){ return Array.prototype.slice.call((root || document).querySelectorAll(sel)); };
+
+  /* --- Toast --- */
+  var toastEl = $("#g7086-toast");
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add("g7086-show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove("g7086-show"); }, 2200);
+  }
+
+  /* --- 移动端导航 --- */
+  var burger = $("#g7086-burger");
+  var nav = $("#g7086-nav");
+  if(burger && nav){
+    burger.addEventListener("click", function(){
+      var open = nav.classList.toggle("g7086-nav-open");
+      burger.setAttribute("aria-expanded", open ? "true" : "false");
+      burger.textContent = open ? "✕" : "☰";
+    });
+    $$("a", nav).forEach(function(a){
+      a.addEventListener("click", function(){
+        nav.classList.remove("g7086-nav-open");
+        burger.setAttribute("aria-expanded","false");
+        burger.textContent = "☰";
+      });
+    });
+  }
+
+  /* --- 搜索前端反馈 --- */
+  var searchForm = $("#g7086-search-form");
+  var searchInput = $("#g7086-search-input");
+  var searchHint = document.createElement("div");
+  searchHint.className = "g7086-search-hint";
+  searchHint.id = "g7086-search-hint";
+  if(searchForm && searchInput){
+    searchForm.parentNode.insertBefore(searchHint, searchForm.nextSibling);
+    searchForm.addEventListener("submit", function(e){
+      e.preventDefault();
+      var kw = searchInput.value.trim();
+      if(!kw){
+        searchHint.textContent = "请输入关键词，例如「自检」「工具」";
+        searchHint.style.color = "#b34747";
+        return;
+      }
+      var found = false;
+      var cards = $$("#g7086-stream-grid .g7086-card");
+      cards.forEach(function(card){
+        var text = card.textContent || "";
+        if(text.indexOf(kw) > -1){ found = true; }
+      });
+      if(found){
+        searchHint.style.color = "#0f6a5c";
+        searchHint.textContent = "已找到与「" + kw + "」相关的内容，正在定位…";
+        var first = $$("#g7086-stream-grid .g7086-card").filter(function(c){
+          return (c.textContent || "").indexOf(kw) > -1;
+        })[0];
+        if(first){
+          first.scrollIntoView({behavior:"smooth", block:"center"});
+          first.style.outline = "2px solid #37c4a8";
+          setTimeout(function(){ first.style.outline = "none"; }, 2400);
+        }
+      }else{
+        searchHint.style.color = "#b34747";
+        searchHint.textContent = "暂未匹配到「" + kw + "」，可尝试「自检」「清单」「工具」";
+      }
+    });
+    searchInput.addEventListener("input", function(){
+      if(!searchInput.value.trim()){ searchHint.textContent = ""; }
+    });
+  }
+
+  /* --- 点赞 / 收藏 --- */
+  $$("[data-g7086-like]").forEach(function(btn){
+    var countEl = btn.querySelector("b");
+    var base = btn.getAttribute("data-g7086-base") || 0;
+    var liked = false;
+    if(countEl){
+      var seed = parseInt(countEl.textContent, 10);
+      base = isNaN(seed) ? 0 : seed;
+    }
+    btn.addEventListener("click", function(){
+      liked = !liked;
+      var n = liked ? base + 1 : base;
+      if(countEl){ countEl.textContent = n; }
+      btn.classList.toggle("g7086-is-liked", liked);
+      btn.innerHTML = (liked ? "♥ 已赞 " : "♡ 点赞 ") + "<b>" + n + "</b>";
+      btn.classList.toggle("g7086-is-liked", liked);
+      showToast(liked ? "感谢点赞，已记录你的支持" : "已取消点赞");
+    });
+  });
+
+  $$("[data-g7086-save]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var on = btn.classList.toggle("g7086-is-saved");
+      btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+      showToast(on ? "已收藏，可在个人中心查看" : "已取消收藏");
+    });
+  });
+
+  /* --- 标签筛选 --- */
+  var filterbar = $("#g7086-filterbar");
+  if(filterbar){
+    $$(".g7086-chip", filterbar).forEach(function(chip){
+      chip.addEventListener("click", function(){
+        $$(".g7086-chip", filterbar).forEach(function(c){ c.classList.remove("g7086-chip-active"); });
+        chip.classList.add("g7086-chip-active");
+        var cat = chip.getAttribute("data-g7086-filter");
+        $$("#g7086-stream-grid .g7086-card").forEach(function(card){
+          var c = card.getAttribute("data-g7086-cat");
+          card.classList.toggle("g7086-hide", !(cat === "all" || c === cat));
+        });
+        showToast("已筛选：" + chip.textContent.trim());
+      });
+    });
+  }
+
+  /* --- 创作者弹窗 --- */
+  $$(".g7086-creator").forEach(function(card){
+    card.addEventListener("click", function(){
+      var name = card.getAttribute("data-g7086-author") || "";
+      var desc = card.getAttribute("data-g7086-desc") || "";
+      openModal(
+        "<h3>" + name + "</h3>" +
+        "<p>" + desc + "</p>" +
+        "<p style='font-size:13px;color:#5d6b7d'>该创作者在站内持续发布原创内容，欢迎在社区内容区检索其作品。合作与授权请通过联系页面提交申请。</p>" +
+        "<div style='display:flex;gap:10px;flex-wrap:wrap;margin-top:12px'>" +
+        "<button class='g7086-btn g7086-btn-primary' data-g7086-follow='" + name + "'>关注创作者</button>" +
+        "<button class='g7086-btn g7086-btn-line' data-g7086-close>关闭</button>" +
+        "</div>"
+      );
+    });
+  });
+
+  /* --- 弹窗系统 --- */
+  var modal = $("#g7086-modal");
+  var modalContent = $("#g7086-modal-content");
+  var modalClose = $("#g7086-modal-close");
+  function openModal(html){
+    if(!modal) return;
+    modalContent.innerHTML = html;
+    modal.classList.add("g7086-show");
+    document.body.style.overflow = "hidden";
+  }
+  function closeModal(){
+    if(!modal) return;
+    modal.classList.remove("g7086-show");
+    document.body.style.overflow = "";
+  }
+  if(modalClose){ modalClose.addEventListener("click", closeModal); }
+  if(modal){
+    modal.addEventListener("click", function(e){
+      if(e.target === modal){ closeModal(); }
+    });
+  }
+  document.addEventListener("keydown", function(e){
+    if(e.key === "Escape"){ closeModal(); }
+  });
+
+  /* --- 弹窗内容模板 --- */
+  function templateShare(){
+    return (
+      "<h3>分享给同路人</h3>" +
+      "<p>把 7086失效地址回家指南 推荐给你身边的人，让更多人少走一点弯路。</p>" +
+      "<div class='g7086-share-list'>" +
+      "<button data-g7086-copy>复制页面链接</button>" +
+      "<button data-g7086-share-tip='微信'>微信</button>" +
+      "<button data-g7086-share-tip='微博'>微博</button>" +
+      "<button data-g7086-share-tip='QQ'>QQ</button>" +
+      "</div>" +
+      "<p style='font-size:12.5px;color:#8a98a8;margin-top:16px;margin-bottom:0'>本页链接可直接用于个人收藏与分享，无需额外授权。</p>"
+    );
+  }
+  function templateSubmit(){
+    return (
+      "<h3>投稿与报名</h3>" +
+      "<p>填写以下信息，编辑会在五个工作日内回复。冬季投稿挑战赛截止时间为 12 月 5 日。</p>" +
+      "<form id='g7086-submit-form'>" +
+      "<div class='g7086-form-field'><label for='g7086-f-name'>创作者名称</label><input id='g7086-f-name' type='text' placeholder='你的昵称' required></div>" +
+      "<div class='g7086-form-field'><label for='g7086-f-dir'>内容方向</label><select id='g7086-f-dir'><option>排查自检</option><option>工具测评</option><option>人物故事</option><option>日常记录</option></select></div>" +
+      "<div class='g7086-form-field'><label for='g7086-f-contact'>联系方式</label><input id='g7086-f-contact' type='text' placeholder='邮箱或社交账号' required></div>" +
+      "<div class='g7086-form-field'><label for='g7086-f-note'>选题简介</label><textarea id='g7086-f-note' rows='3' placeholder='一句话说明你的选题与亮点'></textarea></div>" +
+      "<div style='display:flex;gap:10px;margin-top:16px;flex-wrap:wrap'>" +
+      "<button type='submit' class='g7086-btn g7086-btn-primary'>提交报名</button>" +
+      "<button type='button' class='g7086-btn g7086-btn-line' data-g7086-close>稍后再说</button>" +
+      "</div></form>"
+    );
+  }
+  function templateFeedback(){
+    return (
+      "<h3>反馈问题</h3>" +
+      "<p>发现内容有误、加载异常或社区违规？告诉我们，我们会尽快核查。</p>" +
+      "<div class='g7086-form-field'><label for='g7086-fb-type'>问题类型</label><select id='g7086-fb-type'><option>内容错误</option><option>页面异常</option><option>版权问题</option><option>社区违规</option><option>其他建议</option></select></div>" +
+      "<div class='g7086-form-field'><label for='g7086-fb-desc'>问题描述</label><textarea id='g7086-fb-desc' rows='3' placeholder='请描述具体位置与现象'></textarea></div>" +
+      "<div style='display:flex;gap:10px;margin-top:16px;flex-wrap:wrap'>" +
+      "<button class='g7086-btn g7086-btn-primary' data-g7086-fb-send>提交反馈</button>" +
+      "<button class='g7086-btn g7086-btn-line' data-g7086-close>取消</button>" +
+      "</div>"
+    );
+  }
+  function templateComment(){
+    return (
+      "<h3>参与讨论</h3>" +
+      "<p>最新评论：</p>" +
+      "<div style='background:#f5f8fb;border-radius:12px;padding:14px;margin-bottom:10px;font-size:13.5px;color:#3c4a5c'>" +
+      "<b style='display:block;font-size:13px;margin-bottom:4px'>陈屿</b>按这个流程走了一遍，果然是缓存的问题，谢谢作者。" +
+      "</div>" +
+      "<div style='background:#f5f8fb;border-radius:12px;padding:14px;margin-bottom:10px;font-size:13.5px;color:#3c4a5c'>" +
+      "<b style='display:block;font-size:13px;margin-bottom:4px'>周小满</b>希望后续能加上办公场景的版本，同事之间沟通也能用上。" +
+      "</div>" +
+      "<div class='g7086-form-field'><label for='g7086-c-text'>写下你的看法</label><textarea id='g7086-c-text' rows='3' placeholder='请友善表达，保留具体细节'></textarea></div>" +
+      "<div style='display:flex;gap:10px;margin-top:14px;flex-wrap:wrap'>" +
+      "<button class='g7086-btn g7086-btn-primary' data-g7086-comment-send>发布评论</button>" +
+      "<button class='g7086-btn g7086-btn-line' data-g7086-close>关闭</button>" +
+      "</div>"
+    );
+  }
+
+  var modalTemplates = {
+    share: templateShare,
+    submit: templateSubmit,
+    feedback: templateFeedback,
+    comment: templateComment
+  };
+
+  document.addEventListener("click", function(e){
+    var t = e.target;
+    var opener = t.closest ? t.closest("[data-g7086-open]") : null;
+    if(opener){
+      var key = opener.getAttribute("data-g7086-open");
+      if(modalTemplates[key]){ openModal(modalTemplates[key]()); }
+      return;
+    }
+    if(t.closest && t.closest("[data-g7086-close]")){
+      closeModal();
+      return;
+    }
+    var copyBtn = t.closest ? t.closest("[data-g7086-copy]") : null;
+    if(copyBtn){
+      var url = window.location.href;
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(url).then(function(){
+          showToast("链接已复制，可粘贴分享");
+        }).catch(function(){
+          showToast("复制失败，请手动选择地址栏复制");
+        });
+      }else{
+        showToast("当前环境不支持自动复制，请手动复制地址栏");
+      }
+      return;
+    }
+    var shareTip = t.closest ? t.closest("[data-g7086-share-tip]") : null;
+    if(shareTip){
+      showToast("已生成" + shareTip.getAttribute("data-g7086-share-tip") + "分享提示，请按平台规则粘贴");
+      return;
+    }
+    var followBtn = t.closest ? t.closest("[data-g7086-follow]") : null;
+    if(followBtn){
+      showToast("已关注 " + followBtn.getAttribute("data-g7086-follow"));
+      closeModal();
+      return;
+    }
+    var fbSend = t.closest ? t.closest("[data-g7086-fb-send]") : null;
+    if(fbSend){
+      var desc = $("#g7086-fb-desc");
+      if(desc && !desc.value.trim()){
+        showToast("请先填写问题描述");
+        return;
+      }
+      closeModal();
+      showToast("反馈已提交，感谢你的帮助");
+      return;
+    }
+    var cSend = t.closest ? t.closest("[data-g7086-comment-send]") : null;
+    if(cSend){
+      var cText = $("#g7086-c-text");
+      if(cText && !cText.value.trim()){
+        showToast("评论内容不能为空");
+        return;
+      }
+      closeModal();
+      showToast("评论已发布，感谢参与讨论");
+      return;
+    }
+  });
+
+  /* 表单提交（事件委托） */
+  document.addEventListener("submit", function(e){
+    var form = e.target;
+    if(form && form.id === "g7086-submit-form"){
+      e.preventDefault();
+      var name = $("#g7086-f-name");
+      var contact = $("#g7086-f-contact");
+      if(name && !name.value.trim()){ showToast("请填写创作者名称"); return; }
+      if(contact && !contact.value.trim()){ showToast("请填写联系方式"); return; }
+      closeModal();
+      showToast("报名已提交，编辑将在五个工作日内回复");
+    }
+  });
+
+  /* --- 回到顶部 --- */
+  var topBtn = $("#g7086-totop");
+  window.addEventListener("scroll", function(){
+    if(!topBtn) return;
+    if(window.scrollY > 620){ topBtn.classList.add("g7086-show"); }
+    else{ topBtn.classList.remove("g7086-show"); }
+  }, {passive:true});
+  if(topBtn){
+    topBtn.addEventListener("click", function(){
+      window.scrollTo({top:0, behavior:"smooth"});
+    });
+  }
+
+  /* --- 卡片悬停轻微倾斜（桌面端）--- */
+  if(window.matchMedia("(hover:hover)").matches){
+    $$(".g7086-topic, .g7086-wall-item").forEach(function(el){
+      el.addEventListener("mousemove", function(ev){
+        var r = el.getBoundingClientRect();
+        var dx = (ev.clientX - r.left) / r.width - 0.5;
+        var dy = (ev.clientY - r.top) / r.height - 0.5;
+        el.style.transform = "translateY(-4px) rotateX(" + (-dy * 2) + "deg) rotateY(" + (dx * 2) + "deg)";
+      });
+      el.addEventListener("mouseleave", function(){
+        el.style.transform = "";
+      });
+    });
+  }
+})();
+</script>
+</body>
+            </html>
